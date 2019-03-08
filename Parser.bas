@@ -9,7 +9,7 @@ Public Sub Execute()
     
     test = False
     filePath = tempDir
-    If test Then: filePath = "C:\Users\Reception\Desktop\Outlooktext.txt"
+    If test Then: filePath = "" ''Filepath omitted
     delimiter = "SMTP:"
     dLength = Len(delimiter)
     Set FSO = New FileSystemObject
